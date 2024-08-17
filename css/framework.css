@@ -1,0 +1,314 @@
+:root {
+  --dark-background-color-page: #222e36;
+  --dark-background-color-sidebar: #111b21;
+  --dark-background-color-head: #30414b;
+  --active-background-color: #f6f6f6;
+  --white-color: white;
+  --black-color: black;
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --gray-color: #888;
+  /* --active-background-color: #ff0; */
+}
+
+/*Start Box*/
+.d-flex {
+  display: flex;
+}
+.flex-1{
+  flex-grow: 100%;
+}
+.align-center {
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.f-wrap{
+  flex-wrap: wrap;
+}
+.d-grid {
+  display: grid;
+}
+
+
+.gap-20 {
+  gap: 20px;
+}
+
+.d-block{
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
+/*End Box*/
+
+/* Start sizing */
+.w-full {
+  width: 100%;
+}
+
+.w-fit{
+  width: fit-content;
+}
+.h-full {
+  height: 100%;
+}
+
+.w-100{
+  width: 100px;
+}
+.h-100{
+  height: 100px;
+}
+/* End sizing */
+
+/* Start padding + margin */
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.pt-10{
+  padding-top: 10px;
+}
+.pt-15{
+  padding-top: 15px;
+}
+.pt-20{
+  padding-top: 20px;
+}
+.pb-15{
+  padding-bottom: 15px;
+}
+.pb-20{
+  padding-bottom: 20px;
+}
+.pl-15{
+  padding-left: 15px;
+}
+.m-0{
+  margin: 0;
+}
+.m-15{
+  margin: 15px;
+}
+.m-20 {
+  margin: 20px;
+}
+.mt-0{
+  margin-top: 0px;
+ }
+.mt-10{
+  margin-top: 10px;
+ }
+.mt-15{
+  margin-top: 15px;
+ }
+ .mt-20{
+  margin-top: 20px;
+ }
+ .mt-25{
+  margin-top: 25px;
+ }
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-5{
+  margin-top: 5px;
+}
+.mr-10{
+  margin-right: 10px;
+}
+.mr-15{
+  margin-right: 15px;
+}
+.mb-0{
+  margin-bottom: 0px;
+}
+.mb-5{
+  margin-bottom: 5px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.mb-15{
+  margin-bottom: 15px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-25{
+  margin-bottom: 25px;
+}
+
+/* End padding + margin */
+
+/* Start Color */
+.bg-white {
+  background-color: var(--white-color);
+}
+.bg-orange{
+  background-color: var(--orange-color);
+}
+.bg-green{
+  background-color: var(--green-color);
+}
+.bg-eee{
+  background-color: #eee;
+}
+.bg-blue{
+  background-color: var(--blue-color);
+}
+.bg-red{
+  background-color: var(--red-color);
+}
+.c-blue{
+  color: var(--blue-color);
+}
+.c-white{
+  color: var(--white-color);
+}
+.c-orange{
+  color: var(--orange-color);
+}
+.c-green{
+  color: var(--green-color);
+  
+}
+.c-black {
+  color: black;
+}
+.c-gray{
+  color: var(--gray-color);
+}
+.c-grey{
+  color: var(--gray-color);
+}
+.c-red{
+  color:var(--red-color);
+}
+/* End Color */
+
+/* Start postion */
+.p-relative {
+  position: relative;
+}
+.p-absolute{
+  position: absolute;
+}
+/* End postion */
+
+/* Start Font */
+.fw-bold{
+  font-weight: bold;
+}
+.txt-c {
+  text-align: center;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-1 {
+  font-size: 15px;
+}
+.fs-25{
+  font-size: 25px;
+}
+
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
+
+@media (max-width:767px) {
+ 
+  
+}
+/* End Font */
+
+/* start border */
+.border-ccc{
+  border: 1px solid #ccc;
+}
+.border-eee{
+  border: 1px solid #eee;
+}
+.b-none{
+  border: none;
+}
+.rad-6 {
+  border-radius: 6px;
+}
+
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-half{
+  border-radius: 50%;
+}
+/* End border */
+
+/* Start components */
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.between-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-shape{
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+/* End components */
+
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
+
+/* Start Images */
+.user-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--white-color);
+}
+/* End Images */
